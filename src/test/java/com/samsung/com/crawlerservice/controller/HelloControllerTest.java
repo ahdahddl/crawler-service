@@ -34,4 +34,10 @@ public class HelloControllerTest {
                 .andExpect(content().string(equalTo("Greetings from Spring Boot!")));
 
     }
+
+    @Test
+    public void shouldReturnDefaultMessage() throws Exception {
+        this.mvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
+                .andExpect(content().string(containsString("Spring Boot!")));
+    }
 }
