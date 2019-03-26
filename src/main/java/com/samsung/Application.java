@@ -1,14 +1,14 @@
-package com.samsung.com.crawlerservice;
+package com.samsung;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class CrawlerServiceApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CrawlerServiceApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }

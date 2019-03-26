@@ -1,4 +1,4 @@
-package com.samsung.com.crawlerservice.controller;
+package com.samsung.controller;
 
 
 import static org.hamcrest.CoreMatchers.containsString;

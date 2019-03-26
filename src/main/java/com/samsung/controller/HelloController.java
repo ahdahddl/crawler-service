@@ -1,4 +1,4 @@
-package com.samsung.com.crawlerservice.controller;
+package com.samsung.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;

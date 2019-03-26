@@ -1,4 +1,4 @@
-package com.samsung.com.crawlerservice;
+package com.samsung;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
